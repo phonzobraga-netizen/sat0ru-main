@@ -1,0 +1,295 @@
+{
+  "generatedAt": "2026-02-19T06:58:53.798Z",
+  "classLabels": [
+    "neutral",
+    "red",
+    "blue",
+    "void",
+    "purple",
+    "shrine",
+    "blackflash",
+    "meteor",
+    "cleaveStorm",
+    "dismantleSpiral",
+    "ratioStrike",
+    "boogieRipple",
+    "noGesture"
+  ],
+  "confusionMatrix": [
+    [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "perClass": [
+    {
+      "label": "neutral",
+      "precision": 1,
+      "recall": 1,
+      "support": 2
+    },
+    {
+      "label": "red",
+      "precision": 1,
+      "recall": 1,
+      "support": 2
+    },
+    {
+      "label": "blue",
+      "precision": 1,
+      "recall": 1,
+      "support": 2
+    },
+    {
+      "label": "void",
+      "precision": 1,
+      "recall": 1,
+      "support": 2
+    },
+    {
+      "label": "purple",
+      "precision": 1,
+      "recall": 1,
+      "support": 2
+    },
+    {
+      "label": "shrine",
+      "precision": 1,
+      "recall": 1,
+      "support": 2
+    },
+    {
+      "label": "blackflash",
+      "precision": 1,
+      "recall": 1,
+      "support": 2
+    },
+    {
+      "label": "meteor",
+      "precision": 1,
+      "recall": 1,
+      "support": 2
+    },
+    {
+      "label": "cleaveStorm",
+      "precision": 1,
+      "recall": 1,
+      "support": 2
+    },
+    {
+      "label": "dismantleSpiral",
+      "precision": 1,
+      "recall": 1,
+      "support": 2
+    },
+    {
+      "label": "ratioStrike",
+      "precision": 1,
+      "recall": 1,
+      "support": 2
+    },
+    {
+      "label": "boogieRipple",
+      "precision": 1,
+      "recall": 1,
+      "support": 2
+    },
+    {
+      "label": "noGesture",
+      "precision": 1,
+      "recall": 1,
+      "support": 2
+    }
+  ]
+}

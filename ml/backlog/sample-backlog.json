@@ -1,0 +1,20 @@
+{
+  "targetScore": 100,
+  "maxIterations": 4,
+  "writeChanges": false,
+  "globalValidationCommand": "npm test",
+  "items": [
+    {
+      "id": "ml-classifier-hardening",
+      "filePath": "src/vision/mlClassifier.js",
+      "title": "Improve classifier robustness",
+      "description": "Harden model inference and status transitions to avoid silent failures.",
+      "acceptanceCriteria": [
+        "Inference errors always produce status updates with actionable reason",
+        "Predict path never throws uncaught errors",
+        "No behavior regressions in existing tests"
+      ],
+      "context": "Keep fallback behavior deterministic and preserve public function signatures."
+    }
+  ]
+}

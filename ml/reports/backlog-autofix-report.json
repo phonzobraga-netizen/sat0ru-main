@@ -1,0 +1,241 @@
+{
+  "startedAt": "2026-02-24T13:38:41.274Z",
+  "completedAt": "2026-02-24T13:39:18.221Z",
+  "writeChanges": false,
+  "targetScore": 100,
+  "maxIterations": 4,
+  "configuredModelChain": [
+    "gemini-2.0-flash",
+    "gemini-1.5-flash",
+    "gemini-1.5-flash-8b"
+  ],
+  "modelChain": [
+    "gemini-2.5-pro",
+    "gemini-2.5-pro-preview-tts",
+    "gemini-2.5-flash",
+    "gemini-2.5-flash-image",
+    "gemini-2.5-flash-lite",
+    "gemini-2.5-flash-preview-tts",
+    "gemini-2.5-flash-lite-preview-09-2025",
+    "gemini-2.0-flash",
+    "gemini-2.0-flash-001",
+    "gemini-2.0-flash-lite",
+    "gemini-2.0-flash-lite-001",
+    "gemini-2.0-flash-exp-image-generation",
+    "gemini-pro-latest",
+    "gemini-flash-latest",
+    "gemini-flash-lite-latest",
+    "gemini-3-pro-image-preview",
+    "gemini-3-pro-preview",
+    "gemini-3.1-pro-preview",
+    "gemini-3.1-pro-preview-customtools",
+    "gemini-3-flash-preview",
+    "gemini-2.5-computer-use-preview-10-2025",
+    "gemini-robotics-er-1.5-preview",
+    "gemini-1.5-flash",
+    "gemini-1.5-flash-8b"
+  ],
+  "activeModelChain": [
+    "gemini-2.5-pro",
+    "gemini-2.5-pro-preview-tts",
+    "gemini-2.5-flash",
+    "gemini-2.5-flash-image",
+    "gemini-2.5-flash-lite",
+    "gemini-2.5-flash-preview-tts",
+    "gemini-2.5-flash-lite-preview-09-2025",
+    "gemini-2.0-flash",
+    "gemini-2.0-flash-001",
+    "gemini-2.0-flash-lite",
+    "gemini-2.0-flash-lite-001",
+    "gemini-2.0-flash-exp-image-generation",
+    "gemini-pro-latest",
+    "gemini-flash-latest",
+    "gemini-flash-lite-latest",
+    "gemini-3-pro-image-preview",
+    "gemini-3-pro-preview",
+    "gemini-3.1-pro-preview",
+    "gemini-3.1-pro-preview-customtools",
+    "gemini-3-flash-preview",
+    "gemini-2.5-computer-use-preview-10-2025",
+    "gemini-robotics-er-1.5-preview",
+    "gemini-1.5-flash",
+    "gemini-1.5-flash-8b"
+  ],
+  "modelDiscoveryWarning": null,
+  "geminiPreload": {
+    "loadedCount": 24,
+    "failedCount": 0,
+    "loaded": [
+      "gemini-2.5-pro",
+      "gemini-2.5-pro-preview-tts",
+      "gemini-2.5-flash",
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-lite",
+      "gemini-2.5-flash-preview-tts",
+      "gemini-2.5-flash-lite-preview-09-2025",
+      "gemini-2.0-flash",
+      "gemini-2.0-flash-001",
+      "gemini-2.0-flash-lite",
+      "gemini-2.0-flash-lite-001",
+      "gemini-2.0-flash-exp-image-generation",
+      "gemini-pro-latest",
+      "gemini-flash-latest",
+      "gemini-flash-lite-latest",
+      "gemini-3-pro-image-preview",
+      "gemini-3-pro-preview",
+      "gemini-3.1-pro-preview",
+      "gemini-3.1-pro-preview-customtools",
+      "gemini-3-flash-preview",
+      "gemini-2.5-computer-use-preview-10-2025",
+      "gemini-robotics-er-1.5-preview",
+      "gemini-1.5-flash",
+      "gemini-1.5-flash-8b"
+    ],
+    "failed": []
+  },
+  "modelScores": [
+    {
+      "modelName": "gemini-2.5-pro",
+      "score": 12600
+    },
+    {
+      "modelName": "gemini-2.5-pro-preview-tts",
+      "score": 11800
+    },
+    {
+      "modelName": "gemini-2.5-flash",
+      "score": 11400
+    },
+    {
+      "modelName": "gemini-2.5-flash-image",
+      "score": 11400
+    },
+    {
+      "modelName": "gemini-2.5-flash-lite",
+      "score": 11100
+    },
+    {
+      "modelName": "gemini-2.5-flash-preview-tts",
+      "score": 10600
+    },
+    {
+      "modelName": "gemini-2.5-flash-lite-preview-09-2025",
+      "score": 10300
+    },
+    {
+      "modelName": "gemini-2.0-flash",
+      "score": 9400
+    },
+    {
+      "modelName": "gemini-2.0-flash-001",
+      "score": 9400
+    },
+    {
+      "modelName": "gemini-2.0-flash-lite",
+      "score": 9100
+    },
+    {
+      "modelName": "gemini-2.0-flash-lite-001",
+      "score": 9100
+    },
+    {
+      "modelName": "gemini-2.0-flash-exp-image-generation",
+      "score": 8600
+    },
+    {
+      "modelName": "gemini-pro-latest",
+      "score": 5600
+    },
+    {
+      "modelName": "gemini-flash-latest",
+      "score": 5400
+    },
+    {
+      "modelName": "gemini-flash-lite-latest",
+      "score": 5100
+    },
+    {
+      "modelName": "gemini-3-pro-image-preview",
+      "score": 4800
+    },
+    {
+      "modelName": "gemini-3-pro-preview",
+      "score": 4800
+    },
+    {
+      "modelName": "gemini-3.1-pro-preview",
+      "score": 4800
+    },
+    {
+      "modelName": "gemini-3.1-pro-preview-customtools",
+      "score": 4800
+    },
+    {
+      "modelName": "gemini-3-flash-preview",
+      "score": 4600
+    },
+    {
+      "modelName": "gemini-2.5-computer-use-preview-10-2025",
+      "score": 4200
+    },
+    {
+      "modelName": "gemini-robotics-er-1.5-preview",
+      "score": 4200
+    },
+    {
+      "modelName": "gemini-1.5-flash",
+      "score": 6900
+    },
+    {
+      "modelName": "gemini-1.5-flash-8b",
+      "score": 6700
+    }
+  ],
+  "envSources": [
+    "fairdev/apps/api/.env.example",
+    "fairdev/apps/api/.env"
+  ],
+  "summary": {
+    "total": 1,
+    "succeeded": 1,
+    "failed": 0
+  },
+  "results": [
+    {
+      "id": "ml-classifier-hardening",
+      "filePath": "src/vision/mlClassifier.js",
+      "ok": true,
+      "finalScore": 100,
+      "attempts": [
+        {
+          "attempt": 1,
+          "modelName": "gemini-2.5-flash",
+          "skippedBeforeSuccess": [
+            {
+              "modelName": "gemini-2.5-pro",
+              "category": "rate_limited",
+              "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.5-pro\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.5-pro\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.5-pro\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.5-pro\nPlease retry in 51.468196121s. [{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count\",\"quotaId\":\"GenerateContentInputTokensPerModelPerDay-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.5-pro\"}},{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count\",\"quotaId\":\"GenerateContentInputTokensPerModelPerMinute-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.5-pro\"}},{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.5-pro\"}},{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.5-pro\"}}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"51s\"}]"
+            },
+            {
+              "modelName": "gemini-2.5-pro-preview-tts",
+              "category": "rate_limited",
+              "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-tts:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.5-pro-tts\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.5-pro-tts\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.5-pro-tts\nPlease retry in 51.392696952s. [{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count\",\"quotaId\":\"GenerateContentInputTokensPerModelPerMinute-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.5-pro-tts\"}},{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.5-pro-tts\"}},{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.5-pro-tts\"}}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"51s\"}]"
+            }
+          ],
+          "correctnessScore": 100,
+          "issues": [],
+          "changeSummary": "Ensured consistency in error reporting by stringifying the error object returned by the `predict` function on inference failure, aligning with the error format used for status updates. This enhances robustness and serialization safety.",
+          "rationale": "The `predict` function's `catch` block previously emitted a status update with `error: String(error)` but returned `{ ok: false, reason: 'inference_failed', error }` where `error` was the original error object. To improve consistency, robustness, and serialization safety, the returned error object's `error` property is now also `String(error)`. This ensures that all error representations from inference failures are consistent string messages, preventing potential issues with non-serializable error objects or circular references. All acceptance criteria are fully met: 'Inference errors always produce status updates with actionable reason' (the reason is still actionable, and the error is present), 'Predict path never throws uncaught errors' (the try-catch block is comprehensive), and 'No behavior regressions in existing tests' (the public signature is preserved, and the data type for the error is merely made more robust). Fallback behavior remains deterministic.",
+          "changed": true,
+          "writeApplied": false,
+          "validation": {
+            "ok": true,
+            "exitCode": 0,
+            "output": "\n> sat0ru-main@1.0.0 test\n> node --test tests/*.test.js\n\n✔ feature extractor emits stable shape for one and two hands (3.1675ms)\n✔ feature extractor is translation-invariant after wrist centering (0.467ms)\n✔ mlClassifier loads and maps highest probability label (7.0586ms)\n✔ mlClassifier handles model load failure (0.4876ms)\n✔ prediction state machine commits with 4-of-6 vote (1.6585ms)\n✔ prediction state machine holds then neutralizes (0.3155ms)\n✔ technique registry contains expanded technique set (0.7026ms)\n✔ fillTargets produces data for all expanded techniques (5.3794ms)\nℹ tests 8\nℹ suites 0\nℹ pass 8\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 137.5799\n"
+          },
+          "successful": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JJK: Cursed Technique (Dev)</title>
+    <link rel="stylesheet" href="./styles/app.css">
+    <script>
+        window.__SAT0RU_DEV_BUILD__ = true;
+    </script>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.20.0/dist/tf.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="grain"></div>
+
+    <div id="ui">
+        <h1>呪術廻戦</h1>
+        <div id="technique-name">Neutral State</div>
+    </div>
+
+    <div id="control-panel" aria-label="Controls">
+        <div class="panel-row">
+            <label for="camera-select">Camera</label>
+            <select id="camera-select"></select>
+        </div>
+        <div class="panel-row">
+            <label for="quality-select">Quality</label>
+            <select id="quality-select">
+                <option value="balanced">Balanced</option>
+                <option value="high">High</option>
+                <option value="low">Low</option>
+            </select>
+        </div>
+        <div class="panel-buttons">
+            <button id="start-btn" type="button">Start</button>
+            <button id="stop-btn" type="button" disabled>Stop</button>
+        </div>
+
+        <div id="status-pill" data-state="idle">Idle</div>
+        <div id="status-message">Dev build loaded. Start camera or force a technique below.</div>
+
+        <div id="diagnostics">
+            <div id="model-status">Model: loading</div>
+            <div id="inference-source">Inference: --</div>
+            <div id="tracking-metrics">Hands: 0 | Conf: 0.00 | Phase: idle</div>
+        </div>
+
+        <details id="gesture-help">
+            <summary>Gesture Guide</summary>
+            <ul>
+                <li>Pinch: Hollow Purple</li>
+                <li>Thumbs up: Blue</li>
+                <li>Peace sign: Infinite Void</li>
+                <li>Point up: Red</li>
+                <li>Open palm: Malevolent Shrine</li>
+                <li>Fist: Black Flash</li>
+                <li>Rock sign: Meteor Swarm</li>
+                <li>Dual Open Palms: Cleave Storm</li>
+                <li>Pinch + Rock: Dismantle Spiral</li>
+                <li>Point + Fist: Ratio Strike</li>
+                <li>Thumbs Up + Peace: Boogie Ripple</li>
+                <li>Double Middle Fingers: Monkey Mockery</li>
+            </ul>
+        </details>
+
+        <div id="dev-tools" class="hidden" aria-label="Developer capture tools">
+            <div class="dev-title">Dev Capture Mode</div>
+            <div class="panel-row dev-row">
+                <label for="dev-capture-label">Label</label>
+                <select id="dev-capture-label"></select>
+            </div>
+            <div class="panel-buttons dev-buttons">
+                <button id="dev-capture-start" type="button">Start Capture</button>
+                <button id="dev-capture-stop" type="button">Stop Capture</button>
+            </div>
+            <button id="dev-capture-export" type="button">Export Capture JSON</button>
+            <div class="dev-toggle-row">
+                <label for="dev-ml-toggle">ML Enabled</label>
+                <input id="dev-ml-toggle" type="checkbox" checked>
+            </div>
+            <div id="dev-capture-stats">Capture label: neutral | recording: false | frames: 0 | sequences: 0</div>
+
+            <div class="dev-title">Technique Debug Override</div>
+            <div class="panel-row dev-row">
+                <label for="dev-force-technique">Technique</label>
+                <select id="dev-force-technique"></select>
+            </div>
+            <div class="panel-buttons dev-buttons">
+                <button id="dev-force-apply" type="button">Apply Technique</button>
+                <button id="dev-force-clear" type="button">Clear Override</button>
+            </div>
+            <div id="dev-force-status">Forced technique: none</div>
+        </div>
+
+        <div id="fps">FPS: --</div>
+    </div>
+
+    <div id="video-container">
+        <video class="input_video" autoplay playsinline muted></video>
+        <canvas id="output_canvas"></canvas>
+    </div>
+
+    <div id="technique-test-panel" aria-label="Technique testing panel">
+        <div class="technique-test-header">
+            <div class="technique-test-title">Technique Test Panel</div>
+            <button id="technique-test-live" type="button">Live Tracking</button>
+        </div>
+        <div id="technique-test-list" role="group" aria-label="Technique test buttons"></div>
+        <div id="technique-test-status">Mode: live tracking</div>
+    </div>
+
+    <script type="module" src="./src/main.js"></script>
+</body>
+</html>

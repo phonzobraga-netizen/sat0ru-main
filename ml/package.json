@@ -1,0 +1,19 @@
+{
+  "name": "sat0ru-ml-tools",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare-seed": "node ./scripts/prepare-seed.mjs",
+    "train": "node ./scripts/train.mjs",
+    "evaluate": "node ./scripts/evaluate.mjs",
+    "backlog:models": "node ./scripts/list-gemini-models.mjs",
+    "backlog:autofix": "node ./scripts/backlog-autofix.mjs",
+    "backlog:server": "node ./scripts/backlog-server.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@tensorflow/tfjs": "^4.22.0"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "trainedAt": "2026-02-19T06:58:47.743Z",
+  "sampleCount": 26,
+  "classLabels": [
+    "neutral",
+    "red",
+    "blue",
+    "void",
+    "purple",
+    "shrine",
+    "blackflash",
+    "meteor",
+    "cleaveStorm",
+    "dismantleSpiral",
+    "ratioStrike",
+    "boogieRipple",
+    "noGesture"
+  ],
+  "finalLoss": 1.4526056051254272,
+  "finalAccuracy": 0.8799999952316284,
+  "modelDir": "assets/models/gesture-v1"
+}
